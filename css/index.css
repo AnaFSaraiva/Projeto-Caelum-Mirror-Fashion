@@ -16,7 +16,7 @@ header {
 }
 
 #menu-opcoes {
-  position:absolute;
+  position: absolute;
   bottom: 0px;
   right: 0;
 }
@@ -39,8 +39,52 @@ header {
 }
 
 body {
-  color: #333333; 
-  font-family: 'Lucida Sans Unicode', 'Lucida Granda', sans-serif;
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Granda", sans-serif;
 }
 
+.busca,
+.menu-departamento {
+  float: left;
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
 
+  margin-right: 10px;
+  width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamento h2 {
+  margin: 10px;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type="search"] {
+  width: 170px;
+  border-radius: 15px;
+}
+
+.menu-departamento {
+  clear: left;
+  text-transform: uppercase;
+}
+
+.menu-departamento li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamento a {
+  color: #333;
+  text-decoration: none;
+}
+
+.destaque {
+  margin-top: 10px;
+}
