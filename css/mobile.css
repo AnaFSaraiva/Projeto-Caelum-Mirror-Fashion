@@ -1,0 +1,52 @@
+.container {
+  width: 96%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h1 img {
+  max-width: 50%;
+}
+
+.sacola {
+  display: none;
+}
+
+#menu-opcoes {
+  position: static;
+  text-align: center;
+}
+
+#menu-opcoes ol li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.busca,
+.menu-departamento,
+.destaque img {
+  margin-right: 0;
+  width: 100%;
+}
+
+.painel {
+  width: auto;
+}
+
+.painel li {
+  width: 30%;
+}
+
+.painel figure,
+.painel img {
+  width: 100%;
+}
+
+.painel figure {
+  display: flex;
+  height: 145px;
+  flex-direction: column;
+  justify-content: space-between;
+}
